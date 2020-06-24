@@ -67,4 +67,9 @@ header {
     height: 200px;
     width: 250px;
     border-radius: 7px;
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.project-img:hover {
+    padding: 2px;
 }
