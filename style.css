@@ -14,6 +14,10 @@ body{
     
 }
 
+.fa-home {
+    color: #ffffff;
+}
+
 .link-item:hover{
     border-bottom: solid 2px #3498db;
     padding: 1px;
