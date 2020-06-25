@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url('https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+    /* background: url('https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'); */
     background-color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     
@@ -30,6 +30,11 @@ body {
 .my-name {
     color: #ffffff;
     letter-spacing: 3px;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Fauna One', serif;
+    margin: 3px 0;
+
 }
 
 .my-title {
@@ -42,14 +47,14 @@ body {
    margin: 10px;
    width: 50px;
    padding: 12px 25px;
-   border: solid 2px #2ecc71;
+   border: solid 2px #3498db;
    color: #ffffff;
    border-radius: 24px;
 }
 
 .about-me-btn:hover {
     
-    background-color: #2ecc71;
+    background-color: #3498db;
 
 }
 
@@ -73,12 +78,13 @@ a {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 50px;
+    padding: 5px 10px;
     
 }
 
 .home-link-item:hover{
-    color: #2ecc71;
-    border-bottom: 2px solid #ffffff;
+
+    border-bottom: 2px solid #3498db;
     padding: 3px;
 }
 
@@ -90,21 +96,17 @@ a {
 .social-media {
     position: absolute;
     top: 40px;
-    left: 40px;
+    right: 40px;
 }
 
 .fa-linkedin-square {
     color: white;
     margin: 15px;
-    box-shadow: 0 5px 15px -5px #333333;
-    
-    
 }
 
 .fa-github-square {
     color: white;
     margin: 15px;
-    
 }
 
 
