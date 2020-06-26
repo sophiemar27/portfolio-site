@@ -168,5 +168,24 @@ a {
     color: #3498db;
 }
 
+/* side-menu */
+.sidemenu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 300px;
+    background-color: #ccc;
+    z-index: 1;
+    padding-top: 100px;
+    overflow-x: hidden;
+}
+.sidemenu a{
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #999;
+    display: block;
 
+}
 

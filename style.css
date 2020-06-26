@@ -78,3 +78,29 @@ header {
 .project-img:hover {
     padding: 2px;
 }
+
+.contact-group {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 15px;
+    width: 280px;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+
+.contact-item {
+    margin: 16px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.contact-item:hover {
+    padding: 2px;
+}
+
+a {
+    text-decoration: none;
+}
