@@ -104,3 +104,42 @@ header {
 a {
     text-decoration: none;
 }
+
+/* SIDE-MENU */
+.fa-bars {
+    color: #ffffff;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    transition: all .6s;
+    cursor: pointer;
+}
+
+.sidemenu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 250px;
+    background-color: #333333;
+    z-index: 1;
+    padding-top: 100px;
+    overflow-x: hidden;
+    transition: all .5s;
+}
+.sidemenu a{
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #999;
+    display: block;
+
+}
+
+.sidemenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 32px;
+}
