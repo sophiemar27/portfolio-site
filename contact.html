@@ -49,19 +49,22 @@
         </div>
 
         <form action="https://formspree.io/sophiemar27@gmail.com" method="POST">
-            <label>
-                Your Name:
-                <input type="text" name="name">
-            </label>
-            <label>
-                Your Email:
-                <input type="email" name="_replyto">
-            </label>
-            <label>
-                Message:
-                <textarea name="message"></textarea>
-            </label>
-            <input type="submit" value="Send">
+            <div>
+                
+                <input class="input" type="text" placeholder="Your Name" name="name">
+            </div>
+
+            <div>
+                
+                <input class="input" type="email" placeholder="Your Email" name="_replyto">
+            </div>
+
+            <div>
+                
+                <textarea class="input" name="message" placeholder="Message..." ></textarea>
+            </div>
+
+            <input class="submit-btn" type="submit" value="Send">
         </form>
     </div>
         <script src="main.js"></script>
