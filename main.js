@@ -10,3 +10,4 @@ function closeFunction(){
     menu.style.width="0px"
     mainbox.style.marginLeft="0px"
 }
+
