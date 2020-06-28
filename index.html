@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Site</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Fauna+One&family=Gruppo&family=Playball&display=swap"
         rel="stylesheet">
@@ -15,28 +15,34 @@
 </head>
 
 <body>
+    <!-- *************************** LANDING Page************************* -->
 
-    <div class='showcase'>
-        <!-- <img class="showcase-img" src="./images/showcaseimg.jpg" alt="my image"> -->
-        <h1 class='my-name'>Abel Tareke </h1>
-        <p class="my-title">Fullstock Software Engineer</p>
-        <div>
-            <a class="my-work-btn" href="projects.html">Portfolio</a>
-            <a class="resume" href="https://docs.google.com/document/d/1dovelX3ArDFxMS8mIMKDJtaCjehdYbHCFxb2T3rCiIs/edit?usp=sharing">Resume</a>
+    <div class='container'>
+        <nav class='nav-bar'>
+            <ul>
+                <li><a class='home-link-item' href="#home">Home</a></li>
+                <li><a class='home-link-item' href="#project">Projects</a></li>
+                <li><a class='home-link-item' href="#skill">Skills</a></li>
+                <li><a class='home-link-item' href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section id="home">
+        <div class='showcase'>
+            <!-- <img class="showcase-img" src="./images/showcaseimg.jpg" alt="my image"> -->
+            <h1 class='my-name'>Abel Tareke </h1>
+            <p class="my-title">Fullstock Software Engineer</p>
+            <div>
+                <a class="my-work-btn" href="projects.html">Portfolio</a>
+                <a class="resume"
+                    href="https://docs.google.com/document/d/1dovelX3ArDFxMS8mIMKDJtaCjehdYbHCFxb2T3rCiIs/edit?usp=sharing">Resume</a>
+            </div>
+
+
         </div>
 
 
-    </div>
-    <!-- <div class='container'>
-        <ul class='nav-bar'>
-            <div class="link-parent"><a class='home-link-item' href="index.html">Home</a></div>
-            <div class="link-parent"><a class='home-link-item' href="projects.html">Projects</a></div>
-            <div class="link-parent"><a class='home-link-item' href="resume.html">Resume</a></div>
-            <div class="link-parent"><a class='home-link-item' href="contact.html">Contact</a></div>
-        </ul>
-    </div> -->
-
-    <div>
+        <!-- <div>
         <i onclick="openFunction()" id="mainbox" class="fa fa-bars fa-2x" aria-hidden="true"></i>
 
     </div>
@@ -48,42 +54,114 @@
         <a  href="contact.html">Contact</a>
         <a  href="resume.html">Resume</a>
         <a  href="#" id="closebtn" class="closebtn" onclick="closeFunction()">&times;</a>
-    </div>
+    </div> -->
 
-    
 
-    <div class="social-media">
-        <a href="https://www.linkedin.com/in/abel-tareke/">
-            <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
 
-        </a>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/abel-tareke/">
+                <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
 
-        <a href="https://github.com/sophiemar27">
-            <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+            </a>
 
-        </a>
+            <a href="https://github.com/sophiemar27">
+                <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
 
-    </div>
-    <div class="aboutme-section">
-        <div>
-            <img class="profile-img" src="./images/bgimg.jpeg" alt="">
+            </a>
 
         </div>
+        <div class="aboutme-section">
+            <div>
+                <img class="profile-img" src="./images/bgimg.jpeg" alt="">
 
-        <div>
-            <h1 class="aboutme-title">About Me</h1>
-            <p class="aboutme-p">Software development allows me to push my skills to new heights by facing challenges head on. I enjoy
-                using logic to solve problems and coding allows me to do that. My experience in leading in my community
-                has attributed to my passion for communicating and collaborating. I look forward to bringing my defined
-                skill set in future opportunities. </p>
-               
+            </div>
+
+            <div>
+                <h1 class="aboutme-title">About Me</h1>
+                <p class="aboutme-p">Software development allows me to push my skills to new heights by facing
+                    challenges head on. I enjoy
+                    using logic to solve problems and coding allows me to do that. My experience in leading in my
+                    community
+                    has attributed to my passion for communicating and collaborating. I look forward to bringing my
+                    defined
+                    skill set in future opportunities. </p>
+
+            </div>
         </div>
-    </div>
+        </div>
 
-    <!-- <div>
-        <a class="resume" href="https://docs.google.com/document/d/1dovelX3ArDFxMS8mIMKDJtaCjehdYbHCFxb2T3rCiIs/edit?usp=sharing">Resume</a> -->
-    <!-- </div> -->
-<script src="main.js"></script>
+        <!-- ***************************MY PROJECTS PAGE************************* -->
+
+        <!-- <section id="projects">
+           
+            
+                <a class="projects-link" href="https://mount-tsion-app.herokuapp.com/">
+                    <img class="project-img" src="./images/churchsite.png" /><br />
+                    Event and Class Organizer App</a>
+                <a class="projects-link" href="https://my-charity-app.herokuapp.com/">
+                    <img class="project-img" src="./images/charityapp.png" /><br />
+                    My Charity App</a>
+                <a class="projects-link" href="https://my-house-chore-app.herokuapp.com/user">
+                    <img class="project-img" src="./images/choreapp.png" /><br />
+                    House Chore Organizer App</a>
+                <a class="projects-link" href="https://festive-gates-117ea3.netlify.com">
+                    <img class="project-img" src="./images/jeopardygame.png" /><br />
+                    Jeopardy Game</a>
+        </section> -->
+
+        <!-- ***************************MY SKILLS PAGE************************* -->
+
+        <section id="skills">
+            <div>
+                <h1>My Skills</h1>
+            </div>
+
+        </section>
+
+        <!-- ***************************CONTACT PAGE************************* -->
+
+
+        <section id="section">
+            <div class="contact-container">
+
+                <div class="contact-group">
+                    <a class="contact-item" href="#"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>&nbsp;
+                        tarekeabel@gmail.com</a>
+                    <a class="contact-item" href="#"><i class="fa fa-phone fa-2x" aria-hidden="true"></i>&nbsp; (678)
+                        316
+                        4791</a>
+                    <a class="contact-item" href="#"><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>&nbsp;
+                        Atlanta,
+                        GA</a>
+
+                </div>
+
+                <form action="https://formspree.io/sophiemar27@gmail.com" method="POST">
+                    <div>
+
+                        <input class="input" type="text" placeholder="Your Name" name="name">
+                    </div>
+
+                    <div>
+
+                        <input class="input" type="email" placeholder="Your Email" name="_replyto">
+                    </div>
+
+                    <div>
+
+                        <textarea class="input" name="message" placeholder="Message..."></textarea>
+                    </div>
+
+                    <input class="submit-btn" type="submit" value="Send">
+                </form>
+            </div>
+
+            </div>
+
+
+        </section>
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+        <script src="main.js"></script>
 </body>
 
 </html>

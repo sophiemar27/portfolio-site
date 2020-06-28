@@ -1,13 +1,16 @@
-const menu = document.getElementById('menu')
-const mainbox = document.getElementById('mainbox')
+// const menu = document.getElementById('menu')
+// const mainbox = document.getElementById('mainbox')
 
-function openFunction(){
-    menu.style.width="300px"
-    mainbox.style.marginLeft="150px"
-}
+// function openFunction(){
+//     menu.style.width="300px"
+//     mainbox.style.marginLeft="150px"
+// }
 
-function closeFunction(){
-    menu.style.width="0px"
-    mainbox.style.marginLeft="0px"
-}
+// function closeFunction(){
+//     menu.style.width="0px"
+//     mainbox.style.marginLeft="0px"
+// }
 
+const scroll = new SmoothScroll('.navbar a[href*="#"]', {
+    speed: 800
+});
