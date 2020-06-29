@@ -11,6 +11,3 @@
 //     mainbox.style.marginLeft="0px"
 // }
 
-const scroll = new SmoothScroll('.navbar a[href*="#"]', {
-    speed: 800
-});
