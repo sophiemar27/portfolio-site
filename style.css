@@ -32,7 +32,7 @@ body {
     display: flex;
     width: 100%;
     height: 60px;
-    background: rgba(0, 0, 0, 0.7)
+    background: rgba(0, 0, 0)
 }
 
 .navbar ul {
@@ -40,10 +40,11 @@ body {
     list-style: none;
     width: 100%;
     justify-content: center;
+    
 }
 
 .navbar ul li {
-    margin: 0 1rem;
+    margin: 12px 1.5rem;
 }
 
 .navbar ul li a {
@@ -54,6 +55,7 @@ body {
 
 .navbar ul li a:hover {
     color: skyblue;
+    border-bottom: 2px solid skyblue ;
 }
 
 .showcase {
@@ -121,7 +123,7 @@ section#home {
   }
 
   section#contact {
-    /* background: url('https://images.unsplash.com/photo-1551806235-6692cbfc690b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;; */
+    /* background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sunset-quotes-21-1586531574.jpg') no-repeat center center/cover; */
     /* background-color: #22a6b3; */
   }
 
@@ -154,15 +156,22 @@ section#home {
 }
 
 .resume-container {
+    padding: 8px;
     text-align: center;
     margin: 15px;
     border: 2px solid black;
     text-transform: uppercase;
-   
-
-   
+    background-color: #000000;
 }
 
+.resume {
+    color: #ffffff;
+}
+
+.resume:hover {
+    font-weight: bold;
+    padding: 2px;
+}
 
 
 .profile-img {
@@ -221,6 +230,44 @@ section#home {
     padding: 2px;
 }
 
+
+.skill-h3 {
+    margin: 10px;
+    text-align: center;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.dev-tool {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.dev-tool-list {
+    display: flex;
+    justify-content: space-around
+
+}
+
+.tools {
+    margin: 15px;
+    list-style: none;
+    font-size: 18px;
+
+}
+
+.skill-img {
+    height: 100px;
+    width: 130px;
+    margin: 12px;
+}
+
   
   #contact {
     display: flex;
@@ -236,9 +283,10 @@ section#home {
     margin: 30px;
     border: 1px solid gray;
     border-radius: 7px;
+    font-size: 20px;
     padding: 28px;
     width: 280px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     
 }
 
@@ -259,8 +307,8 @@ section#home {
     font-size: 18px;
     margin-left: 85px;
     border: none;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #000000;
 }
 
 .submit-btn {
