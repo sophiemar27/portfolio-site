@@ -78,7 +78,7 @@ body {
 .my-title {
   color: #000000;
   margin-bottom: 40px;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -232,7 +232,14 @@ section#skill {
 
 .dev-tool {
   display: flex;
+  justify-content: center;
   flex-direction: column;
+}
+
+.tools-git {
+  margin: 35px;
+  list-style: none;
+  font-size: 18px;
 }
 
 .dev-tool-list {
@@ -406,6 +413,8 @@ form {
     }
   }
 
+
+
   @media (max-width: 500px) {
     form {
       margin-right: 50px;
@@ -423,7 +432,7 @@ form {
 
   
 
-
+  
 
 
   
