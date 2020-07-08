@@ -275,6 +275,10 @@ section#skill {
     color: #fff;
 }
 
+.contact-info {
+  color: #000;
+}
+
 #contact {
   display: flex;
   justify-content: center;
